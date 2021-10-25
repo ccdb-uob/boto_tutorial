@@ -1,6 +1,0 @@
-# list your hosts here
-ACCESS_KEY: ACCESS_KEY
-SECRET_KEY: SECRET_KEY
-SESSION_TOKEN: SESSION_TOKEN
-
-ssh_path: <path to your ssh key>

@@ -1,2 +1,3 @@
 /config.yaml
 /etc/zoo_*.cfg
+.env
