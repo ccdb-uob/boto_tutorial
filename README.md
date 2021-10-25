@@ -24,8 +24,7 @@ programming languages as well.
 - [ ] move `.env.template` to `.env`
 - [ ] edit `.env` and paste your AWS session details 
 
-run `fab create`. This will use the fabric cli runner to run the create task. See the [zookeeper tutorial]
-(https://github.com/ccdb-uob/zookeeper_tutorial/blob/691870afaa28155324aebde7bfb78efd41bd9001/start_zk_cluster.py#L23) for an example of how to use fabric to 
+run `fab create`. This will use the fabric cli runner to run the create task. See the [zookeeper tutorial](https://github.com/ccdb-uob/zookeeper_tutorial/blob/691870afaa28155324aebde7bfb78efd41bd9001/start_zk_cluster.py#L23) for an example of how to use fabric to 
 script deployments of application code on remote servers.
 
 You should see a lot of boto debug output. 
