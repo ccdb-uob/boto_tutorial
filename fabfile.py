@@ -10,7 +10,9 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
 from dotenv import dotenv_values
+
 config = dotenv_values(".env")
+
 
 @task
 def create(c):
@@ -22,7 +24,8 @@ def create(c):
 
     instances = ec2.create_instances(
 
-        ImageId='ami-02e136e904f3da870',
+        # ImageId='ami-02e136e904f3da870', #(Amazon AMI)
+        ImageId='ami-0d4fb65189c3b8d49',  # (Cloud9 Ubuntu - 2020-02)
         MinCount=1,
         MaxCount=1,
         InstanceType='t2.micro',
