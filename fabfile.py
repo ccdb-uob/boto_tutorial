@@ -27,10 +27,10 @@ def create(c, name='COMSM0072_boto_lab', securitygroup=None):
     instances = ec2.create_instances(
 
         # ImageId='ami-02e136e904f3da870', #(Amazon AMI)
-        ImageId='ami-0d4fb65189c3b8d49',  # (Cloud9 Ubuntu - 2020-02)
+        ImageId='ami-05e4673d4a28889fe',  # (Cloud9 Ubuntu - 2021-10-28T1333)
         MinCount=1,
         MaxCount=1,
-        InstanceType='t2.micro',
+        InstanceType='t2.large',
         Placement={
             'AvailabilityZone': 'us-east-1a',
         },
